@@ -1,0 +1,237 @@
+body, html{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:whitesmoke;
+}
+
+.wrap{
+    position: relative;
+    background-color: red;
+}
+
+.child0{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    top:2vw;
+    width:100%;
+    padding:2vw;
+    background-color: whitesmoke;
+    margin-bottom: 2vw;
+}
+.child1{
+    position: absolute;
+    top:10vw;
+    left:4vw;
+    width:50%;
+    border: 2px solid rgb(0, 173, 0);
+    border-radius:2px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.child2{
+    position: absolute;
+    top:26vw;
+    left:4vw;
+    width:50%;
+    border: 2px solid rgb(253, 82, 3);
+    border-radius: 2px;
+    padding: 2vw;
+    background-color: whitesmoke;
+
+}
+.child3{
+    position: absolute;
+    left:55vw;
+    top:10vw;
+}
+.child4{
+    position: absolute;
+    left:69vw;
+    top:10vw;
+}
+.child5{
+    position: absolute;
+    left:86vw;
+    top:10vw;
+}
+.child6{
+    position: absolute;
+    left:55vw;
+    top:25vw;
+}
+.child7{
+    position: absolute;
+    left:78vw;
+    top:25vw;
+}
+.wrap button{
+    color:rgb(3, 253, 86);
+    background-color: whitesmoke;
+    border: 1px solid rgb(3, 253, 86);
+    border-radius: 1px;
+    text-align: center;
+    font-size: 2vw;
+}
+.wrap button:hover{
+    color:grey;
+    background-color: rgb(172, 255, 147);
+    border: 1px solid rgb(3, 253, 86);
+    border-radius: 1px;
+    text-align: center;
+}
+.child1h1{
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ #budget, #expname, #expval{
+     width:80%;
+     height:3vw;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border: 1px solid rgb(253, 82, 3);
+     border-radius: 1px;
+     padding: 10px;
+ }
+ .resf{
+     font-size: 2vw;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ #resbudget, #resexp, #resbal #resexpname, #resexpval{
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ @media  (max-width: 600px){
+    .wrap{
+        position: relative;
+        background-color: red;
+    }
+    
+    .child0{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        position: absolute;
+        top:-6vw;
+        width:100%;
+        padding:4vw;
+        background-color: whitesmoke;
+        margin-bottom: 4vw;
+    }
+    .child1{
+        position: absolute;
+        top:15vw;
+        left:6vw;
+        width:50%;
+        border: 2px solid rgb(0, 173, 0);
+        border-radius:2px;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    
+    .child2{
+        position: absolute;
+        top:60vw;
+        left:6vw;
+        width:50%;
+        border: 2px solid rgb(253, 82, 3);
+        border-radius: 2px;
+        padding: 2vw;
+        background-color: whitesmoke;
+    
+    }
+    .child3{
+        position: absolute;
+        left:10vw;
+        top:100vw;
+    }
+    .child4{
+        position: absolute;
+        left:30vw;
+        top:100vw;
+    }
+    .child5{
+        position: absolute;
+        left:60vw;
+        top:100vw;
+    }
+    .child6{
+        position: absolute;
+        left:10vw;
+        top:110vw;
+    }
+    .child7{
+        position: absolute;
+        left:60vw;
+        top:110vw;
+    }
+    .wrap button{
+        color:rgb(3, 253, 86);
+        background-color: whitesmoke;
+        border: 1px solid rgb(3, 253, 86);
+        border-radius: 1px;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .wrap button:hover{
+        color:grey;
+        background-color: rgb(172, 255, 147);
+        border: 1px solid rgb(3, 253, 86);
+        border-radius: 1px;
+        text-align: center;
+    }
+    .child1h1{
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+     #budget, #expname, #expval{
+         width:80%;
+         height:3vw;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         border: 1px solid rgb(253, 82, 3);
+         border-radius: 1px;
+         padding: 10px;
+         font-size: 3vw;
+
+     }
+     .resf{
+         font-size: 3vw;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+     }
+     #resbudget, #resexp, #resbal #resexpname, #resexpval{
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+     }
+ }
+ @media  (max-width: 600px){
+    .child3{
+        position: absolute;
+        left:10vw;
+        top:110vw;
+    }
+    .child4{
+        position: absolute;
+        left:30vw;
+        top:110vw;
+    }
+    .child5{
+        position: absolute;
+        left:60vw;
+        top:110vw;
+    }
+    .child6{
+        position: absolute;
+        left:10vw;
+        top:135vw;
+    }
+    .child7{
+        position: absolute;
+        left:60vw;
+        top:135vw;
+    }
+ }
